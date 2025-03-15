@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "category": "Electronics",
+      "price": 699,
+      "image": "/images/smartphone.jpg",
+      "description": "Latest smartphone with advanced features",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "slug": "electronics",
+      "primaryImage": "/images/smartphone.jpg",
+      "secondaryImage": "/images/smartphone2.jpg"
+
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "category": "Sports",
+      "price": 120,
+      "image": "/images/shoes.jpg",
+      "description": "Comfortable running shoes with great support",
+      "isOnSale": true,
+      "isFeatured": true,
+      "isNew": true,
+      "rating": 4,
+      "slug": "sports"
+    },
+    {
+      "id": 3,
+      "name": "Cookbook",
+      "category": "Books",
+      "price": 35,
+      "image": "/images/cookbook.jpg",
+      "description": "Delicious recipes for home cooking",
+      "isOnSale": false,
+      "isFeatured": true,
+      "isNew": true,
+      "rating": 3,
+      "slug": "books"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "price": 1200,
+      "image": "/images/laptop.jpg",
+      "description": "High-performance laptop for gaming",
+      "isOnSale": true,
+      "isFeatured": true,
+      "isNew": true,
+      "rating": 4.5,
+      "slug": "electronics"
+    },
+    {
+      "id": 5,
+      "name": "Winter Jacket",
+      "category": "Clothing",
+      "price": 150,
+      "image": "/images/jacket.jpg",
+      "description": "Warm and stylish jacket for winter"
+    }
+  ]
+}
