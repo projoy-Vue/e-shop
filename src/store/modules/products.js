@@ -66,8 +66,8 @@ export default {
       })
     },
     categories(state) {
-      return [...new Set(state.products.map(product => product.category))]
       //return [...new Set(state.products.map(product => product.category))]
+      return [...new Set(state.products.map(product => product.category))]
     },
     paginatedProducts: (state, getters) => {
       const start = (state.currentPage - 1) * state.itemsPerPage
