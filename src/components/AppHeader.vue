@@ -24,10 +24,10 @@
               <router-link 
                 v-for="category in categories" 
                 :key="category" 
-                :to="`/category/${category}`"
+                :to="`/category/${category.name}`"
                 @click="isCategoryOpen = false"
               >
-                {{ category }}
+                {{ category.name }}
               </router-link>
             </div>
           </transition>

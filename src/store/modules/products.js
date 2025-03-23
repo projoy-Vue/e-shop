@@ -9,6 +9,7 @@ export default {
     itemsPerPage: 12,
     categories: [],
 
+ filteredProducts: []  // Store filtered products
   },
   mutations: {
     SET_PRODUCTS(state, products) {
@@ -22,6 +23,9 @@ export default {
     },
     SET_SORT_BY(state, sort) {
       state.sortBy = sort
+    },
+    SET_PRICE_RANGE(state, range) {
+      state.priceRange = range
     },
     SET_FILTER_CATEGORY(state, category) {
       state.filterCategory = category
@@ -64,11 +68,29 @@ export default {
         if (state.sortBy === 'name') return a.name.localeCompare(b.name)
         return 0
       })
+
+
     },
     categories(state) {
-      //return [...new Set(state.products.map(product => product.category))]
-      return [...new Set(state.products.map(product => product.category))]
+      // return [...new Set(state.products.map(product => product.category))]
+      // Create a map to store unique categories
+      const categoryMap = new Map()
+
+      state.products.forEach(product => {
+        if (!categoryMap.has(product.category)) {
+          categoryMap.set(product.category, {
+            id: product.id, // Use a unique identifier (like the first product ID of this category)
+            name: product.category,
+            image: product.categoryImage // Use the image from the first product of this category
+          })
+        }
+      })
+
+      return Array.from(categoryMap.values())
     },
+    // Keep only this categories getter
+
+
     paginatedProducts: (state, getters) => {
       const start = (state.currentPage - 1) * state.itemsPerPage
       const end = start + state.itemsPerPage
@@ -79,8 +101,9 @@ export default {
     },
     currentPage: state => state.currentPage,
     itemsPerPage: state => state.itemsPerPage,
-    //categories: state => state.categories,
+    // categories: state => state.categories,
     featuredProducts: state => state.products.filter(p => p.isFeatured),
-    newArrivals: state => state.products.filter(p => p.isNew)
+    newArrivals: state => state.products.filter(p => p.isNew),
+    specialOffers: state => state.products.filter(p => p.isOnSale),
   }
 }

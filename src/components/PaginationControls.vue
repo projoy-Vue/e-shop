@@ -1,102 +1,109 @@
 <template>
-    <div class="pagination-controls" v-if="totalPages > 1">
-      <div class="pagination-info">
-        Showing {{ startIndex }}-{{ endIndex }} of {{ totalProducts }} products
-      </div>
-      
-      <div class="pagination-buttons">
-        <button 
-          @click="goToPage(currentPage - 1)" 
-          :disabled="currentPage === 1"
-          class="pagination-button"
-        >
-          Previous
-        </button>
-  
-        <button
-          v-for="page in visiblePages"
-          :key="page"
-          @click="goToPage(page)"
-          :class="{ active: page === currentPage }"
-          class="pagination-button"
-        >
-          {{ page }}
-        </button>
-  
-        <button 
-          @click="goToPage(currentPage + 1)" 
-          :disabled="currentPage === totalPages"
-          class="pagination-button"
-        >
-          Next
-        </button>
-      </div>
-  
-      <div class="items-per-page">
-        <select v-model="selectedItemsPerPage" @change="updateItemsPerPage">
-          <option value="12">12 per page</option>
-          <option value="24">24 per page</option>
-          <option value="48">48 per page</option>
-        </select>
-      </div>
+  <div class="pagination-controls" v-if="totalPages > 1">
+    <div class="pagination-info">
+      Showing {{ startIndex }}-{{ endIndex }} of {{ totalProducts }} products
     </div>
-  </template>
-  
-  <script>
-  import { mapGetters, mapMutations } from 'vuex'
-  
-  export default {
-    computed: {
-      ...mapGetters('products', [
-        'currentPage',
-        'totalPages',
-        'itemsPerPage',
-        'filteredProducts'
-      ]),
-      totalProducts() {
-        return this.filteredProducts.length
-      },
-      startIndex() {
-        return (this.currentPage - 1) * this.itemsPerPage + 1
-      },
-      endIndex() {
-        const end = this.currentPage * this.itemsPerPage
-        return end > this.totalProducts ? this.totalProducts : end
-      },
-      visiblePages() {
-        const range = []
-        const start = Math.max(1, this.currentPage - 2)
-        const end = Math.min(this.totalPages, this.currentPage + 2)
-        
-        for (let i = start; i <= end; i++) {
-          range.push(i)
-        }
-        return range
-      },
-      selectedItemsPerPage: {
-        get() {
-          return this.itemsPerPage.toString()
-        },
-        set(value) {
-          return value
-        }
-      }
+
+    <div class="pagination-buttons">
+      <button 
+        @click="goToPage(currentPage - 1)" 
+        :disabled="currentPage === 1"
+        class="pagination-button"
+      >
+        Previous
+      </button>
+
+      <button
+        v-for="page in visiblePages"
+        :key="page"
+        @click="goToPage(page)"
+        :class="{ active: page === currentPage }"
+        class="pagination-button"
+      >
+        {{ page }}
+      </button>
+
+      <button 
+        @click="goToPage(currentPage + 1)" 
+        :disabled="currentPage === totalPages"
+        class="pagination-button"
+      >
+        Next
+      </button>
+    </div>
+
+    <div class="items-per-page">
+      <select v-model="selectedItemsPerPage" @change="updateItemsPerPage">
+        <option value="12">12 per page</option>
+        <option value="24">24 per page</option>
+        <option value="48">48 per page</option>
+      </select>
+    </div>
+  </div>
+</template>
+
+<script>
+import { mapGetters, mapMutations } from 'vuex'
+
+export default {
+  computed: {
+    ...mapGetters('products', [
+      'currentPage',
+      'totalPages',
+      'itemsPerPage',
+      'filteredProducts'
+    ]),
+    totalProducts() {
+      return this.filteredProducts.length;
     },
-    methods: {
-      ...mapMutations('products', ['SET_CURRENT_PAGE', 'SET_ITEMS_PER_PAGE']),
-      goToPage(page) {
-        if (page >= 1 && page <= this.totalPages) {
-          this.SET_CURRENT_PAGE(page)
-          window.scrollTo({ top: 0, behavior: 'smooth' })
-        }
+    startIndex() {
+      return (this.currentPage - 1) * this.itemsPerPage + 1;
+    },
+    endIndex() {
+      const end = this.currentPage * this.itemsPerPage;
+      return end > this.totalProducts ? this.totalProducts : end;
+    },
+    visiblePages() {
+      const range = [];
+      const maxVisible = 5;
+      let start = Math.max(1, this.currentPage - Math.floor(maxVisible / 2));
+      let end = Math.min(this.totalPages, start + maxVisible - 1);
+
+      if (end - start + 1 < maxVisible) {
+        start = Math.max(1, end - maxVisible + 1);
+      }
+
+      for (let i = start; i <= end; i++) {
+        range.push(i);
+      }
+
+      return range;
+    },
+    selectedItemsPerPage: {
+      get() {
+        return this.itemsPerPage.toString();
       },
-      updateItemsPerPage(event) {
-        this.SET_ITEMS_PER_PAGE(parseInt(event.target.value))
-        this.SET_CURRENT_PAGE(1)
+      set(value) {
+        return value;
       }
     }
+  },
+  methods: {
+    ...mapMutations('products', ['SET_CURRENT_PAGE', 'SET_ITEMS_PER_PAGE']),
+    goToPage(page) {
+      if (page >= 1 && page <= this.totalPages) {
+        this.SET_CURRENT_PAGE(page);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    },
+    updateItemsPerPage(event) {
+      this.SET_ITEMS_PER_PAGE(parseInt(event.target.value));
+      this.SET_CURRENT_PAGE(1);
+    }
   }
-  </script>
+}
+</script>
+
   
   <style scoped>
   .pagination-controls {

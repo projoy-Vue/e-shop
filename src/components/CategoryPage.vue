@@ -10,7 +10,7 @@
             {{ filteredProducts.length }} products found
           </div>
         </div>
-        <ProductList :show-filters="false" />
+       <ProductList :show-filters="false" />
       </div>
     </div>
   </template>

@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "rating": 5,
+      "message": "Amazing product! Highly recommend it.",
+      "avatar": "../assets/reviews/john-doe.jpg",
+      "date": "2025-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "rating": 4,
+      "message": "Good quality, but delivery was slow.",
+      "avatar": "/images/jane.jpg",
+      "date": "2025-03-12"
+    },
+    {
+      "id": 3,
+      "name": "David Lee",
+      "rating": 5,
+      "message": "Fantastic experience! Will buy again.",
+      "avatar": "/images/david.jpg",
+      "date": "2025-03-10"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "rating": 4.5,
+      "message": "Excellent customer service!",
+      "avatar": "/images/emily.jpg",
+      "date": "2025-03-08"
+    },
+    {
+      "id": 5,
+      "name": "Michael Johnson",
+      "rating": 5,
+      "message": "Highly satisfied with the product quality.",
+      "avatar": "/images/michael.jpg",
+      "date": "2025-03-05"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Davis",
+      "rating": 4.5,
+      "message": "Great value for the price!",
+      "avatar": "/images/sophia.jpg",
+      "date": "2025-03-03"
+    }
+    
+  ]
+  

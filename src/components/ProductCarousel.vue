@@ -8,6 +8,7 @@
       :product="product"
     />
   </div>
+  
 </section>
 </template>
 

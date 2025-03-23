@@ -2,34 +2,37 @@
   <div>
     <SearchFilter />
     <div class="product-list">
-      <div v-for="product in filteredProducts" :key="product.id" class="product-card">
-        <img :src="product.image" :alt="product.name">
+      <div v-for="product in paginatedProducts" :key="product.id" class="product-card">
+        <img :src="product.image" :alt="product.name" />
         <h3>{{ product.name }}</h3>
         <p>{{ product.price }}</p>
         <button @click="addToCart(product)">Add to Cart</button>
         <router-link :to="`/product/${product.id}`">View Details</router-link>
       </div>
     </div>
+    <PaginationControls />
   </div>
 </template>
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
 import SearchFilter from './SearchFilter.vue'
+import PaginationControls from './PaginationControls.vue';
 
 export default {
-  components: { SearchFilter },
+  components: { SearchFilter, PaginationControls },
   computed: {
-    ...mapGetters('products', ['filteredProducts'])
+    ...mapGetters('products', ['paginatedProducts'])
   },
   methods: {
     ...mapActions('cart', ['addToCart'])
   },
   created() {
-    this.$store.dispatch('products/fetchProducts')
+    this.$store.dispatch('products/fetchProducts');
   }
 }
 </script>
+
 <style scoped>
 /* General Styles */
 * {

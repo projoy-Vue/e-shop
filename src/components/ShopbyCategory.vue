@@ -1,19 +1,22 @@
 <template>
   <section class="category-section">
     <div class="section-heading">
-      <h2>Shop by Category</h2>
+      <h2 class="section-title">Shop by Category</h2>
+      <p class="section-description">
+        Explore our curated collections
+      </p>
     </div>
 
     <div class="category-grid">
       <router-link 
         v-for="category in categories"
         :key="category.id"
-        :to="`/category/${category.slug}`"
+        :to="`/category/${category.name}`"
         class="category-card"
       >
         <div class="image-container">
           <img 
-            :src="category.image"
+            :src="getImage(category.image)"
             :alt="category.name"
             class="category-image"
           >
@@ -24,19 +27,31 @@
         </div>
       </router-link>
     </div>
-
-    <router-link to="/categories" class="browse-all">
+    
+  
+    <router-link :to="{ path: `/category/${categoryName}` }"class="browse-all">
       Browse All Categories
     </router-link>
   </section>
 </template>
 <script>
 export default {
+  data() {
+    return {
+      categoryName: 'all'
+    }
+  },
   computed: {
     categories() {
       return this.$store.getters['products/categories']
     }
+  },
+  methods: {
+    getImage(image) {
+      return new URL(image, import.meta.url).href
+    }
   }
+
 }
 </script>
 
@@ -74,6 +89,13 @@ export default {
 
 .section-heading h2:hover::after {
   width: 100px;
+}
+
+.section-description {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
 }
 
 .category-grid {

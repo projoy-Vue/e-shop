@@ -1,7 +1,10 @@
 <template>
   <section class="featured-products">
     <div class="section-heading">
-      <h2>Featured Products</h2>
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-description">
+        Discover our top-selling products
+      </p>
     </div>
 
     <div class="product-grid">
@@ -11,13 +14,13 @@
         class="product-card"
       >
         <div class="image-container">
-          <img 
-            :src="product.primaryImage" 
+          <img
+           :src="getImage(product.primaryImage)"
             :alt="product.name"
             class="primary-image"
           >
           <img 
-            :src="product.secondaryImage" 
+            :src="getImage(product.secondaryImage)" 
             :alt="product.name"
             class="secondary-image"
           >
@@ -60,16 +63,22 @@
 </template>
 
 <script>
+
 export default {
   computed: {
     featuredProducts() {
-      return this.$store.getters['products/featuredProducts']
-    }
+      return this.$store.getters['products/featuredProducts'].slice(0, 6);
+    },
+   
   },
   methods: {
     addToCart(product) {
       this.$store.dispatch('cart/addToCart', product)
-    }
+    },
+      // Dynamically load images from the assets folder
+      getImage(image) {
+        return new URL(image, import.meta.url).href;
+      }
   }
 }
 </script>
@@ -110,6 +119,11 @@ export default {
   width: 100px;
 }
 
+.section-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -137,7 +151,10 @@ export default {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  padding-top: 100%;
+  aspect-ratio: 1/0;
+  height: 250px;
+  /* padding-top: 50%; */
+
 }
 
 .primary-image,

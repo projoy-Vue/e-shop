@@ -2,6 +2,7 @@
     <div class="product-card">
       <div class="product-image">
         <img :src="product.image" :alt="product.name">
+        <div class="product-badge" v-if="product.isOnSale" >Sale!</div>
         <div class="product-badge" v-if="product.isNew">New!</div>
       </div>
       <div class="product-details">

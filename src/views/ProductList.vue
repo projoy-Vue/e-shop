@@ -5,11 +5,11 @@
         <SearchFilter />
         <div class="product-grid">
           <ProductCard 
-            v-for="product in filteredProducts" 
+          v-for="product in paginatedProducts" 
             :key="product.id" 
             :product="product"
           />
-        </div>
+        </div> 
         <PaginationControls />
       </div>
     </section>
@@ -23,12 +23,13 @@
   
   export default {
     components: {
-      ProductCard,
-       SearchFilter,
-       PaginationControls
+     ProductCard,
+      SearchFilter,
+      PaginationControls,
+  
     },
     computed: {
-      ...mapGetters('products', ['filteredProducts', ])
+      ...mapGetters('products', ['paginatedProducts', ])
     },
     created() {
       this.$store.dispatch('products/fetchProducts')
