@@ -1,0 +1,1 @@
+import{_ as e,c as o,a as n,o as a}from"./index-7MU7TvLI.js";const c={name:"contact"};function s(r,t,l,p,_,d){return a(),o("div",null,t[0]||(t[0]=[n("h1",null,"Contact",-1)]))}const i=e(c,[["render",s]]);export{i as default};
