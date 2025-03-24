@@ -1,0 +1,3504 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "category": "Electronics",
+      "price": 21.5,
+      "originalPrice": 25.8,
+      "image": "../assets/images/smartphonex.jpg",
+      "description": "Smartphone X with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/smartphonex.jpg",
+      "secondaryImage": "../assets/images/smartphonex2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.55 kg",
+        "features": [
+          "Lightweight",
+          "Comfortable",
+          "Eco-friendly",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "price": 23.0,
+      "originalPrice": 27.6,
+      "image": "../assets/images/gaminglaptop.jpg",
+      "description": "Gaming Laptop with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/gaminglaptop.jpg",
+      "secondaryImage": "../assets/images/gaminglaptop2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.6 kg",
+        "features": [
+          "Durable",
+          "Waterproof",
+          "Lightweight",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "category": "Electronics",
+      "price": 24.5,
+      "originalPrice": 29.4,
+      "image": "../assets/images/headphones.jpg",
+      "description": "Headphones with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/headphones.jpg",
+      "secondaryImage": "../assets/images/headphones2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.65 kg",
+        "features": [
+          "Waterproof",
+          "Eco-friendly",
+          "Comfortable",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Camera",
+      "category": "Electronics",
+      "price": 26.0,
+      "originalPrice": 31.2,
+      "image": "../assets/images/camera.jpg",
+      "description": "Camera with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/camera.jpg",
+      "secondaryImage": "../assets/images/camera2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.7 kg",
+        "features": [
+          "Lightweight",
+          "Comfortable",
+          "Waterproof",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "price": 27.5,
+      "originalPrice": 33.0,
+      "image": "../assets/images/smartwatch.jpg",
+      "description": "Smartwatch with high-quality materials and excellent design.",
+      "rating": 4.3,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/smartwatch.jpg",
+      "secondaryImage": "../assets/images/smartwatch2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.75 kg",
+        "features": [
+          "Comfortable",
+          "Lightweight",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 29.0,
+      "originalPrice": 34.8,
+      "image": "../assets/images/bluetoothspeaker.jpg",
+      "description": "Bluetooth Speaker with high-quality materials and excellent design.",
+      "rating": 5.0,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/bluetoothspeaker.jpg",
+      "secondaryImage": "../assets/images/bluetoothspeaker2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.8 kg",
+        "features": [
+          "Durable",
+          "Eco-friendly",
+          "Stylish",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Tablet Pro",
+      "category": "Electronics",
+      "price": 30.5,
+      "originalPrice": 36.6,
+      "image": "../assets/images/tabletpro.jpg",
+      "description": "Tablet Pro with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/tabletpro.jpg",
+      "secondaryImage": "../assets/images/tabletpro2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.85 kg",
+        "features": [
+          "Waterproof",
+          "Eco-friendly",
+          "Durable",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Wireless Charger",
+      "category": "Electronics",
+      "price": 32.0,
+      "originalPrice": 38.4,
+      "image": "../assets/images/wirelesscharger.jpg",
+      "description": "Wireless Charger with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/wirelesscharger.jpg",
+      "secondaryImage": "../assets/images/wirelesscharger2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.9 kg",
+        "features": [
+          "Comfortable",
+          "Stylish",
+          "Lightweight",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Gaming Mouse",
+      "category": "Electronics",
+      "price": 33.5,
+      "originalPrice": 40.2,
+      "image": "../assets/images/gamingmouse.jpg",
+      "description": "Gaming Mouse with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/gamingmouse.jpg",
+      "secondaryImage": "../assets/images/gamingmouse2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "0.95 kg",
+        "features": [
+          "Stylish",
+          "Lightweight",
+          "Eco-friendly",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 35.0,
+      "originalPrice": 42.0,
+      "image": "../assets/images/mechanicalkeyboard.jpg",
+      "description": "Mechanical Keyboard with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/mechanicalkeyboard.jpg",
+      "secondaryImage": "../assets/images/mechanicalkeyboard2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.0 kg",
+        "features": [
+          "Lightweight",
+          "Stylish",
+          "Durable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "price": 36.5,
+      "originalPrice": 43.8,
+      "image": "../assets/images/fitnesstracker.jpg",
+      "description": "Fitness Tracker with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/fitnesstracker.jpg",
+      "secondaryImage": "../assets/images/fitnesstracker2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.05 kg",
+        "features": [
+          "Durable",
+          "Stylish",
+          "Eco-friendly",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Smart TV",
+      "category": "Electronics",
+      "price": 38.0,
+      "originalPrice": 45.6,
+      "image": "../assets/images/smarttv.jpg",
+      "description": "Smart TV with high-quality materials and excellent design.",
+      "rating": 4.8,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/smarttv.jpg",
+      "secondaryImage": "../assets/images/smarttv2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.1 kg",
+        "features": [
+          "Waterproof",
+          "Stylish",
+          "Comfortable",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Drone",
+      "category": "Electronics",
+      "price": 39.5,
+      "originalPrice": 47.4,
+      "image": "../assets/images/drone.jpg",
+      "description": "Drone with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/drone.jpg",
+      "secondaryImage": "../assets/images/drone2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.15 kg",
+        "features": [
+          "Eco-friendly",
+          "Stylish",
+          "Waterproof",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "VR Headset",
+      "category": "Electronics",
+      "price": 41.0,
+      "originalPrice": 49.2,
+      "image": "../assets/images/vrheadset.jpg",
+      "description": "VR Headset with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/vrheadset.jpg",
+      "secondaryImage": "../assets/images/vrheadset2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.2 kg",
+        "features": [
+          "Waterproof",
+          "Eco-friendly",
+          "Durable",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Portable Projector",
+      "category": "Electronics",
+      "price": 42.5,
+      "originalPrice": 51.0,
+      "image": "../assets/images/portableprojector.jpg",
+      "description": "Portable Projector with high-quality materials and excellent design.",
+      "rating": 3.9,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/portableprojector.jpg",
+      "secondaryImage": "../assets/images/portableprojector2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.25 kg",
+        "features": [
+          "Lightweight",
+          "Stylish",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Action Camera",
+      "category": "Electronics",
+      "price": 44.0,
+      "originalPrice": 52.8,
+      "image": "../assets/images/actioncamera.jpg",
+      "description": "Action Camera with high-quality materials and excellent design.",
+      "rating": 3.9,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/actioncamera.jpg",
+      "secondaryImage": "../assets/images/actioncamera2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.3 kg",
+        "features": [
+          "Lightweight",
+          "Waterproof",
+          "Eco-friendly",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "Noise-Cancelling Headphones",
+      "category": "Electronics",
+      "price": 45.5,
+      "originalPrice": 54.6,
+      "image": "../assets/images/noise-cancellingheadphones.jpg",
+      "description": "Noise-Cancelling Headphones with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/noise-cancellingheadphones.jpg",
+      "secondaryImage": "../assets/images/noise-cancellingheadphones2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.35 kg",
+        "features": [
+          "Eco-friendly",
+          "Durable",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "E-Reader",
+      "category": "Electronics",
+      "price": 47.0,
+      "originalPrice": 56.4,
+      "image": "../assets/images/e-reader.jpg",
+      "description": "E-Reader with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/e-reader.jpg",
+      "secondaryImage": "../assets/images/e-reader2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.4 kg",
+        "features": [
+          "Stylish",
+          "Waterproof",
+          "Lightweight",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Portable SSD",
+      "category": "Electronics",
+      "price": 48.5,
+      "originalPrice": 58.2,
+      "image": "../assets/images/portablessd.jpg",
+      "description": "Portable SSD with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/portablessd.jpg",
+      "secondaryImage": "../assets/images/portablessd2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.45 kg",
+        "features": [
+          "Durable",
+          "Eco-friendly",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Dash Cam",
+      "category": "Electronics",
+      "price": 50.0,
+      "originalPrice": 60.0,
+      "image": "../assets/images/dashcam.jpg",
+      "description": "Dash Cam with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/dashcam.jpg",
+      "secondaryImage": "../assets/images/dashcam2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.5 kg",
+        "features": [
+          "Durable",
+          "Lightweight",
+          "Waterproof",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "Smart Home Hub",
+      "category": "Electronics",
+      "price": 51.5,
+      "originalPrice": 61.8,
+      "image": "../assets/images/smarthomehub.jpg",
+      "description": "Smart Home Hub with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/smarthomehub.jpg",
+      "secondaryImage": "../assets/images/smarthomehub2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.55 kg",
+        "features": [
+          "Lightweight",
+          "Eco-friendly",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "USB-C Hub",
+      "category": "Electronics",
+      "price": 53.0,
+      "originalPrice": 63.6,
+      "image": "../assets/images/usb-chub.jpg",
+      "description": "USB-C Hub with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/usb-chub.jpg",
+      "secondaryImage": "../assets/images/usb-chub2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.6 kg",
+        "features": [
+          "Stylish",
+          "Lightweight",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Streaming Stick",
+      "category": "Electronics",
+      "price": 54.5,
+      "originalPrice": 65.4,
+      "image": "../assets/images/streamingstick.jpg",
+      "description": "Streaming Stick with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/streamingstick.jpg",
+      "secondaryImage": "../assets/images/streamingstick2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.65 kg",
+        "features": [
+          "Stylish",
+          "Comfortable",
+          "Lightweight",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Digital Photo Frame",
+      "category": "Electronics",
+      "price": 56.0,
+      "originalPrice": 67.2,
+      "image": "../assets/images/digitalphotoframe.jpg",
+      "description": "Digital Photo Frame with high-quality materials and excellent design.",
+      "rating": 3.9,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/digitalphotoframe.jpg",
+      "secondaryImage": "../assets/images/digitalphotoframe2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.7 kg",
+        "features": [
+          "Stylish",
+          "Eco-friendly",
+          "Lightweight",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Electric Toothbrush",
+      "category": "Electronics",
+      "price": 57.5,
+      "originalPrice": 69.0,
+      "image": "../assets/images/electrictoothbrush.jpg",
+      "description": "Electric Toothbrush with high-quality materials and excellent design.",
+      "rating": 4.8,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "electronics",
+      "primaryImage": "../assets/images/electrictoothbrush.jpg",
+      "secondaryImage": "../assets/images/electrictoothbrush2.jpg",
+      "categoryImage": "../assets/images/Electronics.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.75 kg",
+        "features": [
+          "Waterproof",
+          "Durable",
+          "Eco-friendly",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "Running Shoes",
+      "category": "Sports",
+      "price": 59.0,
+      "originalPrice": 70.8,
+      "image": "../assets/images/runningshoes.jpg",
+      "description": "Running Shoes with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/runningshoes.jpg",
+      "secondaryImage": "../assets/images/runningshoes2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.8 kg",
+        "features": [
+          "Stylish",
+          "Lightweight",
+          "Durable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Basketball",
+      "category": "Sports",
+      "price": 60.5,
+      "originalPrice": 72.6,
+      "image": "../assets/images/basketball.jpg",
+      "description": "Basketball with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/basketball.jpg",
+      "secondaryImage": "../assets/images/basketball2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.85 kg",
+        "features": [
+          "Comfortable",
+          "Durable",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Football",
+      "category": "Sports",
+      "price": 62.0,
+      "originalPrice": 74.4,
+      "image": "../assets/images/football.jpg",
+      "description": "Football with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/football.jpg",
+      "secondaryImage": "../assets/images/football2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.9 kg",
+        "features": [
+          "Durable",
+          "Stylish",
+          "Lightweight",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Tennis Racket",
+      "category": "Sports",
+      "price": 63.5,
+      "originalPrice": 76.2,
+      "image": "../assets/images/tennisracket.jpg",
+      "description": "Tennis Racket with high-quality materials and excellent design.",
+      "rating": 3.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/tennisracket.jpg",
+      "secondaryImage": "../assets/images/tennisracket2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "1.95 kg",
+        "features": [
+          "Lightweight",
+          "Waterproof",
+          "Stylish",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Gym Bag",
+      "category": "Sports",
+      "price": 65.0,
+      "originalPrice": 78.0,
+      "image": "../assets/images/gymbag.jpg",
+      "description": "Gym Bag with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/gymbag.jpg",
+      "secondaryImage": "../assets/images/gymbag2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.0 kg",
+        "features": [
+          "Comfortable",
+          "Durable",
+          "Eco-friendly",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Yoga Mat",
+      "category": "Sports",
+      "price": 66.5,
+      "originalPrice": 79.8,
+      "image": "../assets/images/yogamat.jpg",
+      "description": "Yoga Mat with high-quality materials and excellent design.",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/yogamat.jpg",
+      "secondaryImage": "../assets/images/yogamat2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.05 kg",
+        "features": [
+          "Stylish",
+          "Waterproof",
+          "Durable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "name": "Cycling Helmet",
+      "category": "Sports",
+      "price": 68.0,
+      "originalPrice": 81.6,
+      "image": "../assets/images/cyclinghelmet.jpg",
+      "description": "Cycling Helmet with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/cyclinghelmet.jpg",
+      "secondaryImage": "../assets/images/cyclinghelmet2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.1 kg",
+        "features": [
+          "Lightweight",
+          "Eco-friendly",
+          "Comfortable",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "name": "Fitness Tracker",
+      "category": "Sports",
+      "price": 69.5,
+      "originalPrice": 83.4,
+      "image": "../assets/images/fitnesstracker.jpg",
+      "description": "Fitness Tracker with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/fitnesstracker.jpg",
+      "secondaryImage": "../assets/images/fitnesstracker2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.15 kg",
+        "features": [
+          "Waterproof",
+          "Comfortable",
+          "Stylish",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "name": "Boxing Gloves",
+      "category": "Sports",
+      "price": 71.0,
+      "originalPrice": 85.2,
+      "image": "../assets/images/boxinggloves.jpg",
+      "description": "Boxing Gloves with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/boxinggloves.jpg",
+      "secondaryImage": "../assets/images/boxinggloves2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.2 kg",
+        "features": [
+          "Lightweight",
+          "Comfortable",
+          "Eco-friendly",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "name": "Soccer Cleats",
+      "category": "Sports",
+      "price": 72.5,
+      "originalPrice": 87.0,
+      "image": "../assets/images/soccercleats.jpg",
+      "description": "Soccer Cleats with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/soccercleats.jpg",
+      "secondaryImage": "../assets/images/soccercleats2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.25 kg",
+        "features": [
+          "Durable",
+          "Waterproof",
+          "Lightweight",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Sports Water Bottle",
+      "category": "Sports",
+      "price": 74.0,
+      "originalPrice": 88.8,
+      "image": "../assets/images/sportswaterbottle.jpg",
+      "description": "Sports Water Bottle with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/sportswaterbottle.jpg",
+      "secondaryImage": "../assets/images/sportswaterbottle2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.3 kg",
+        "features": [
+          "Comfortable",
+          "Durable",
+          "Stylish",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "Resistance Bands",
+      "category": "Sports",
+      "price": 75.5,
+      "originalPrice": 90.6,
+      "image": "../assets/images/resistancebands.jpg",
+      "description": "Resistance Bands with high-quality materials and excellent design.",
+      "rating": 5.0,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/resistancebands.jpg",
+      "secondaryImage": "../assets/images/resistancebands2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.35 kg",
+        "features": [
+          "Waterproof",
+          "Durable",
+          "Lightweight",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "name": "Hiking Boots",
+      "category": "Sports",
+      "price": 77.0,
+      "originalPrice": 92.4,
+      "image": "../assets/images/hikingboots.jpg",
+      "description": "Hiking Boots with high-quality materials and excellent design.",
+      "rating": 5.0,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/hikingboots.jpg",
+      "secondaryImage": "../assets/images/hikingboots2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.4 kg",
+        "features": [
+          "Waterproof",
+          "Eco-friendly",
+          "Durable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "name": "Golf Club Set",
+      "category": "Sports",
+      "price": 78.5,
+      "originalPrice": 94.2,
+      "image": "../assets/images/golfclubset.jpg",
+      "description": "Golf Club Set with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/golfclubset.jpg",
+      "secondaryImage": "../assets/images/golfclubset2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.45 kg",
+        "features": [
+          "Durable",
+          "Stylish",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "name": "Badminton Racket",
+      "category": "Sports",
+      "price": 80.0,
+      "originalPrice": 96.0,
+      "image": "../assets/images/badmintonracket.jpg",
+      "description": "Badminton Racket with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/badmintonracket.jpg",
+      "secondaryImage": "../assets/images/badmintonracket2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.5 kg",
+        "features": [
+          "Comfortable",
+          "Stylish",
+          "Eco-friendly",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "name": "Inline Skates",
+      "category": "Sports",
+      "price": 81.5,
+      "originalPrice": 97.8,
+      "image": "../assets/images/inlineskates.jpg",
+      "description": "Inline Skates with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/inlineskates.jpg",
+      "secondaryImage": "../assets/images/inlineskates2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.55 kg",
+        "features": [
+          "Durable",
+          "Lightweight",
+          "Stylish",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "name": "Jump Rope",
+      "category": "Sports",
+      "price": 83.0,
+      "originalPrice": 99.6,
+      "image": "../assets/images/jumprope.jpg",
+      "description": "Jump Rope with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/jumprope.jpg",
+      "secondaryImage": "../assets/images/jumprope2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.6 kg",
+        "features": [
+          "Durable",
+          "Waterproof",
+          "Eco-friendly",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "name": "Swim Goggles",
+      "category": "Sports",
+      "price": 84.5,
+      "originalPrice": 101.4,
+      "image": "../assets/images/swimgoggles.jpg",
+      "description": "Swim Goggles with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/swimgoggles.jpg",
+      "secondaryImage": "../assets/images/swimgoggles2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.65 kg",
+        "features": [
+          "Stylish",
+          "Comfortable",
+          "Lightweight",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "name": "Paddle Board",
+      "category": "Sports",
+      "price": 86.0,
+      "originalPrice": 103.2,
+      "image": "../assets/images/paddleboard.jpg",
+      "description": "Paddle Board with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/paddleboard.jpg",
+      "secondaryImage": "../assets/images/paddleboard2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.7 kg",
+        "features": [
+          "Waterproof",
+          "Eco-friendly",
+          "Comfortable",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "name": "Treadmill",
+      "category": "Sports",
+      "price": 87.5,
+      "originalPrice": 105.0,
+      "image": "../assets/images/treadmill.jpg",
+      "description": "Treadmill with high-quality materials and excellent design.",
+      "rating": 4.8,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/treadmill.jpg",
+      "secondaryImage": "../assets/images/treadmill2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.75 kg",
+        "features": [
+          "Lightweight",
+          "Waterproof",
+          "Comfortable",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "name": "Exercise Bike",
+      "category": "Sports",
+      "price": 89.0,
+      "originalPrice": 106.8,
+      "image": "../assets/images/exercisebike.jpg",
+      "description": "Exercise Bike with high-quality materials and excellent design.",
+      "rating": 4.5,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/exercisebike.jpg",
+      "secondaryImage": "../assets/images/exercisebike2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.8 kg",
+        "features": [
+          "Eco-friendly",
+          "Comfortable",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Weightlifting Belt",
+      "category": "Sports",
+      "price": 90.5,
+      "originalPrice": 108.6,
+      "image": "../assets/images/weightliftingbelt.jpg",
+      "description": "Weightlifting Belt with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/weightliftingbelt.jpg",
+      "secondaryImage": "../assets/images/weightliftingbelt2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.85 kg",
+        "features": [
+          "Comfortable",
+          "Lightweight",
+          "Durable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "name": "Punching Bag",
+      "category": "Sports",
+      "price": 92.0,
+      "originalPrice": 110.4,
+      "image": "../assets/images/punchingbag.jpg",
+      "description": "Punching Bag with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/punchingbag.jpg",
+      "secondaryImage": "../assets/images/punchingbag2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.9 kg",
+        "features": [
+          "Lightweight",
+          "Eco-friendly",
+          "Waterproof",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "Hand Grips",
+      "category": "Sports",
+      "price": 93.5,
+      "originalPrice": 112.2,
+      "image": "../assets/images/handgrips.jpg",
+      "description": "Hand Grips with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "sports",
+      "primaryImage": "../assets/images/handgrips.jpg",
+      "secondaryImage": "../assets/images/handgrips2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "2.95 kg",
+        "features": [
+          "Eco-friendly",
+          "Lightweight",
+          "Durable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Ski Goggles",
+      "category": "Sports",
+      "price": 95.0,
+      "originalPrice": 114.0,
+      "image": "../assets/images/skigoggles.jpg",
+      "description": "Ski Goggles with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "sports",
+      "primaryImage": "../assets/images/skigoggles.jpg",
+      "secondaryImage": "../assets/images/skigoggles2.jpg",
+      "categoryImage": "../assets/images/Sports.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.0 kg",
+        "features": [
+          "Comfortable",
+          "Waterproof",
+          "Stylish",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "Cookbook",
+      "category": "Books",
+      "price": 96.5,
+      "originalPrice": 115.8,
+      "image": "../assets/images/cookbook.jpg",
+      "description": "Cookbook with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/cookbook.jpg",
+      "secondaryImage": "../assets/images/cookbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.05 kg",
+        "features": [
+          "Durable",
+          "Waterproof",
+          "Comfortable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "name": "Mystery Novel",
+      "category": "Books",
+      "price": 98.0,
+      "originalPrice": 117.6,
+      "image": "../assets/images/mysterynovel.jpg",
+      "description": "Mystery Novel with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/mysterynovel.jpg",
+      "secondaryImage": "../assets/images/mysterynovel2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.1 kg",
+        "features": [
+          "Lightweight",
+          "Durable",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "name": "Science Fiction Book",
+      "category": "Books",
+      "price": 99.5,
+      "originalPrice": 119.4,
+      "image": "../assets/images/sciencefictionbook.jpg",
+      "description": "Science Fiction Book with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/sciencefictionbook.jpg",
+      "secondaryImage": "../assets/images/sciencefictionbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.15 kg",
+        "features": [
+          "Eco-friendly",
+          "Durable",
+          "Stylish",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "name": "Self-Help Guide",
+      "category": "Books",
+      "price": 101.0,
+      "originalPrice": 121.2,
+      "image": "../assets/images/self-helpguide.jpg",
+      "description": "Self-Help Guide with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/self-helpguide.jpg",
+      "secondaryImage": "../assets/images/self-helpguide2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.2 kg",
+        "features": [
+          "Lightweight",
+          "Waterproof",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "name": "Travel Book",
+      "category": "Books",
+      "price": 102.5,
+      "originalPrice": 123.0,
+      "image": "../assets/images/travelbook.jpg",
+      "description": "Travel Book with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/travelbook.jpg",
+      "secondaryImage": "../assets/images/travelbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.25 kg",
+        "features": [
+          "Durable",
+          "Eco-friendly",
+          "Lightweight",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "name": "Children's Storybook",
+      "category": "Books",
+      "price": 104.0,
+      "originalPrice": 124.8,
+      "image": "../assets/images/children'sstorybook.jpg",
+      "description": "Children's Storybook with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/children'sstorybook.jpg",
+      "secondaryImage": "../assets/images/children'sstorybook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.3 kg",
+        "features": [
+          "Waterproof",
+          "Comfortable",
+          "Lightweight",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "name": "Biography",
+      "category": "Books",
+      "price": 105.5,
+      "originalPrice": 126.6,
+      "image": "../assets/images/biography.jpg",
+      "description": "Biography with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/biography.jpg",
+      "secondaryImage": "../assets/images/biography2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.35 kg",
+        "features": [
+          "Comfortable",
+          "Lightweight",
+          "Eco-friendly",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "name": "Historical Fiction",
+      "category": "Books",
+      "price": 107.0,
+      "originalPrice": 128.4,
+      "image": "../assets/images/historicalfiction.jpg",
+      "description": "Historical Fiction with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/historicalfiction.jpg",
+      "secondaryImage": "../assets/images/historicalfiction2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.4 kg",
+        "features": [
+          "Waterproof",
+          "Durable",
+          "Stylish",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "name": "Poetry Collection",
+      "category": "Books",
+      "price": 108.5,
+      "originalPrice": 130.2,
+      "image": "../assets/images/poetrycollection.jpg",
+      "description": "Poetry Collection with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/poetrycollection.jpg",
+      "secondaryImage": "../assets/images/poetrycollection2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.45 kg",
+        "features": [
+          "Comfortable",
+          "Waterproof",
+          "Eco-friendly",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "name": "Art Book",
+      "category": "Books",
+      "price": 110.0,
+      "originalPrice": 132.0,
+      "image": "../assets/images/artbook.jpg",
+      "description": "Art Book with high-quality materials and excellent design.",
+      "rating": 3.5,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/artbook.jpg",
+      "secondaryImage": "../assets/images/artbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.5 kg",
+        "features": [
+          "Eco-friendly",
+          "Durable",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "name": "Comic Book",
+      "category": "Books",
+      "price": 111.5,
+      "originalPrice": 133.8,
+      "image": "../assets/images/comicbook.jpg",
+      "description": "Comic Book with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/comicbook.jpg",
+      "secondaryImage": "../assets/images/comicbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.55 kg",
+        "features": [
+          "Lightweight",
+          "Durable",
+          "Comfortable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "name": "Fantasy Novel",
+      "category": "Books",
+      "price": 113.0,
+      "originalPrice": 135.6,
+      "image": "../assets/images/fantasynovel.jpg",
+      "description": "Fantasy Novel with high-quality materials and excellent design.",
+      "rating": 4.8,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/fantasynovel.jpg",
+      "secondaryImage": "../assets/images/fantasynovel2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.6 kg",
+        "features": [
+          "Stylish",
+          "Waterproof",
+          "Comfortable",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "name": "Thriller Book",
+      "category": "Books",
+      "price": 114.5,
+      "originalPrice": 137.4,
+      "image": "../assets/images/thrillerbook.jpg",
+      "description": "Thriller Book with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/thrillerbook.jpg",
+      "secondaryImage": "../assets/images/thrillerbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.65 kg",
+        "features": [
+          "Stylish",
+          "Lightweight",
+          "Eco-friendly",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "name": "Philosophy Book",
+      "category": "Books",
+      "price": 116.0,
+      "originalPrice": 139.2,
+      "image": "../assets/images/philosophybook.jpg",
+      "description": "Philosophy Book with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/philosophybook.jpg",
+      "secondaryImage": "../assets/images/philosophybook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.7 kg",
+        "features": [
+          "Eco-friendly",
+          "Lightweight",
+          "Stylish",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "name": "Psychology Book",
+      "category": "Books",
+      "price": 117.5,
+      "originalPrice": 141.0,
+      "image": "../assets/images/psychologybook.jpg",
+      "description": "Psychology Book with high-quality materials and excellent design.",
+      "rating": 3.9,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/psychologybook.jpg",
+      "secondaryImage": "../assets/images/psychologybook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.75 kg",
+        "features": [
+          "Comfortable",
+          "Waterproof",
+          "Lightweight",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "name": "Photography Book",
+      "category": "Books",
+      "price": 119.0,
+      "originalPrice": 142.8,
+      "image": "../assets/images/photographybook.jpg",
+      "description": "Photography Book with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/photographybook.jpg",
+      "secondaryImage": "../assets/images/photographybook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.8 kg",
+        "features": [
+          "Eco-friendly",
+          "Stylish",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "name": "Business Strategy Book",
+      "category": "Books",
+      "price": 120.5,
+      "originalPrice": 144.6,
+      "image": "../assets/images/businessstrategybook.jpg",
+      "description": "Business Strategy Book with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/businessstrategybook.jpg",
+      "secondaryImage": "../assets/images/businessstrategybook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.85 kg",
+        "features": [
+          "Comfortable",
+          "Stylish",
+          "Waterproof",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "name": "Spiritual Guide",
+      "category": "Books",
+      "price": 122.0,
+      "originalPrice": 146.4,
+      "image": "../assets/images/spiritualguide.jpg",
+      "description": "Spiritual Guide with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/spiritualguide.jpg",
+      "secondaryImage": "../assets/images/spiritualguide2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.9 kg",
+        "features": [
+          "Comfortable",
+          "Waterproof",
+          "Eco-friendly",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "name": "Educational Textbook",
+      "category": "Books",
+      "price": 123.5,
+      "originalPrice": 148.2,
+      "image": "../assets/images/educationaltextbook.jpg",
+      "description": "Educational Textbook with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/educationaltextbook.jpg",
+      "secondaryImage": "../assets/images/educationaltextbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "3.95 kg",
+        "features": [
+          "Comfortable",
+          "Eco-friendly",
+          "Durable",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "name": "Political Memoir",
+      "category": "Books",
+      "price": 125.0,
+      "originalPrice": 150.0,
+      "image": "../assets/images/politicalmemoir.jpg",
+      "description": "Political Memoir with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/politicalmemoir.jpg",
+      "secondaryImage": "../assets/images/politicalmemoir2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.0 kg",
+        "features": [
+          "Durable",
+          "Comfortable",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "name": "DIY Craft Book",
+      "category": "Books",
+      "price": 126.5,
+      "originalPrice": 151.8,
+      "image": "../assets/images/diycraftbook.jpg",
+      "description": "DIY Craft Book with high-quality materials and excellent design.",
+      "rating": 4.1,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/diycraftbook.jpg",
+      "secondaryImage": "../assets/images/diycraftbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.05 kg",
+        "features": [
+          "Waterproof",
+          "Lightweight",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "name": "Romance Novel",
+      "category": "Books",
+      "price": 128.0,
+      "originalPrice": 153.6,
+      "image": "../assets/images/romancenovel.jpg",
+      "description": "Romance Novel with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/romancenovel.jpg",
+      "secondaryImage": "../assets/images/romancenovel2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.1 kg",
+        "features": [
+          "Waterproof",
+          "Lightweight",
+          "Stylish",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "name": "Health & Wellness Guide",
+      "category": "Books",
+      "price": 129.5,
+      "originalPrice": 155.4,
+      "image": "../assets/images/health&wellnessguide.jpg",
+      "description": "Health & Wellness Guide with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/health&wellnessguide.jpg",
+      "secondaryImage": "../assets/images/health&wellnessguide2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.15 kg",
+        "features": [
+          "Durable",
+          "Comfortable",
+          "Lightweight",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "name": "Humor Book",
+      "category": "Books",
+      "price": 131.0,
+      "originalPrice": 157.2,
+      "image": "../assets/images/humorbook.jpg",
+      "description": "Humor Book with high-quality materials and excellent design.",
+      "rating": 4.4,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "books",
+      "primaryImage": "../assets/images/humorbook.jpg",
+      "secondaryImage": "../assets/images/humorbook2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.2 kg",
+        "features": [
+          "Stylish",
+          "Eco-friendly",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "name": "Adventure Novel",
+      "category": "Books",
+      "price": 132.5,
+      "originalPrice": 159.0,
+      "image": "../assets/images/adventurenovel.jpg",
+      "description": "Adventure Novel with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "books",
+      "primaryImage": "../assets/images/adventurenovel.jpg",
+      "secondaryImage": "../assets/images/adventurenovel2.jpg",
+      "categoryImage": "../assets/images/Books.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.25 kg",
+        "features": [
+          "Comfortable",
+          "Stylish",
+          "Durable",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "name": "Winter Jacket",
+      "category": "Clothing",
+      "price": 134.0,
+      "originalPrice": 160.8,
+      "image": "../assets/images/winterjacket.jpg",
+      "description": "Winter Jacket with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/winterjacket.jpg",
+      "secondaryImage": "../assets/images/winterjacket2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.3 kg",
+        "features": [
+          "Waterproof",
+          "Durable",
+          "Stylish",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "name": "T-Shirt",
+      "category": "Clothing",
+      "price": 135.5,
+      "originalPrice": 162.6,
+      "image": "../assets/images/t-shirt.jpg",
+      "description": "T-Shirt with high-quality materials and excellent design.",
+      "rating": 4.5,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/t-shirt.jpg",
+      "secondaryImage": "../assets/images/t-shirt2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.35 kg",
+        "features": [
+          "Lightweight",
+          "Comfortable",
+          "Eco-friendly",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "name": "Jeans",
+      "category": "Clothing",
+      "price": 137.0,
+      "originalPrice": 164.4,
+      "image": "../assets/images/jeans.jpg",
+      "description": "Jeans with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/jeans.jpg",
+      "secondaryImage": "../assets/images/jeans2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.4 kg",
+        "features": [
+          "Stylish",
+          "Eco-friendly",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "name": "Sweater",
+      "category": "Clothing",
+      "price": 138.5,
+      "originalPrice": 166.2,
+      "image": "../assets/images/sweater.jpg",
+      "description": "Sweater with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/sweater.jpg",
+      "secondaryImage": "../assets/images/sweater2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.45 kg",
+        "features": [
+          "Stylish",
+          "Comfortable",
+          "Eco-friendly",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "name": "Running Shorts",
+      "category": "Clothing",
+      "price": 140.0,
+      "originalPrice": 168.0,
+      "image": "../assets/images/runningshorts.jpg",
+      "description": "Running Shorts with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/runningshorts.jpg",
+      "secondaryImage": "../assets/images/runningshorts2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.5 kg",
+        "features": [
+          "Stylish",
+          "Comfortable",
+          "Lightweight",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "name": "Sports Bra",
+      "category": "Clothing",
+      "price": 141.5,
+      "originalPrice": 169.8,
+      "image": "../assets/images/sportsbra.jpg",
+      "description": "Sports Bra with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/sportsbra.jpg",
+      "secondaryImage": "../assets/images/sportsbra2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.55 kg",
+        "features": [
+          "Comfortable",
+          "Durable",
+          "Stylish",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "name": "Casual Shirt",
+      "category": "Clothing",
+      "price": 143.0,
+      "originalPrice": 171.6,
+      "image": "../assets/images/casualshirt.jpg",
+      "description": "Casual Shirt with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/casualshirt.jpg",
+      "secondaryImage": "../assets/images/casualshirt2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.6 kg",
+        "features": [
+          "Durable",
+          "Stylish",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "name": "Leather Jacket",
+      "category": "Clothing",
+      "price": 144.5,
+      "originalPrice": 173.4,
+      "image": "../assets/images/leatherjacket.jpg",
+      "description": "Leather Jacket with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/leatherjacket.jpg",
+      "secondaryImage": "../assets/images/leatherjacket2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.65 kg",
+        "features": [
+          "Waterproof",
+          "Lightweight",
+          "Durable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "name": "Hoodie",
+      "category": "Clothing",
+      "price": 146.0,
+      "originalPrice": 175.2,
+      "image": "../assets/images/hoodie.jpg",
+      "description": "Hoodie with high-quality materials and excellent design.",
+      "rating": 3.8,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/hoodie.jpg",
+      "secondaryImage": "../assets/images/hoodie2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.7 kg",
+        "features": [
+          "Comfortable",
+          "Eco-friendly",
+          "Stylish",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "name": "Formal Suit",
+      "category": "Clothing",
+      "price": 147.5,
+      "originalPrice": 177.0,
+      "image": "../assets/images/formalsuit.jpg",
+      "description": "Formal Suit with high-quality materials and excellent design.",
+      "rating": 4.7,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/formalsuit.jpg",
+      "secondaryImage": "../assets/images/formalsuit2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.75 kg",
+        "features": [
+          "Durable",
+          "Comfortable",
+          "Stylish",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "name": "Scarf",
+      "category": "Clothing",
+      "price": 149.0,
+      "originalPrice": 178.8,
+      "image": "../assets/images/scarf.jpg",
+      "description": "Scarf with high-quality materials and excellent design.",
+      "rating": 3.6,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/scarf.jpg",
+      "secondaryImage": "../assets/images/scarf2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.8 kg",
+        "features": [
+          "Comfortable",
+          "Lightweight",
+          "Eco-friendly",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "name": "Wool Hat",
+      "category": "Clothing",
+      "price": 150.5,
+      "originalPrice": 180.6,
+      "image": "../assets/images/woolhat.jpg",
+      "description": "Wool Hat with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/woolhat.jpg",
+      "secondaryImage": "../assets/images/woolhat2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.85 kg",
+        "features": [
+          "Lightweight",
+          "Eco-friendly",
+          "Durable",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "name": "Denim Jacket",
+      "category": "Clothing",
+      "price": 152.0,
+      "originalPrice": 182.4,
+      "image": "../assets/images/denimjacket.jpg",
+      "description": "Denim Jacket with high-quality materials and excellent design.",
+      "rating": 4.3,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/denimjacket.jpg",
+      "secondaryImage": "../assets/images/denimjacket2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.9 kg",
+        "features": [
+          "Eco-friendly",
+          "Comfortable",
+          "Lightweight",
+          "Stylish"
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "name": "Tank Top",
+      "category": "Clothing",
+      "price": 153.5,
+      "originalPrice": 184.2,
+      "image": "../assets/images/tanktop.jpg",
+      "description": "Tank Top with high-quality materials and excellent design.",
+      "rating": 4.3,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/tanktop.jpg",
+      "secondaryImage": "../assets/images/tanktop2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "4.95 kg",
+        "features": [
+          "Stylish",
+          "Durable",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "name": "Swimsuit",
+      "category": "Clothing",
+      "price": 155.0,
+      "originalPrice": 186.0,
+      "image": "../assets/images/swimsuit.jpg",
+      "description": "Swimsuit with high-quality materials and excellent design.",
+      "rating": 4.0,
+      "isNew": true,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/swimsuit.jpg",
+      "secondaryImage": "../assets/images/swimsuit2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.0 kg",
+        "features": [
+          "Eco-friendly",
+          "Lightweight",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "name": "Raincoat",
+      "category": "Clothing",
+      "price": 156.5,
+      "originalPrice": 187.8,
+      "image": "../assets/images/raincoat.jpg",
+      "description": "Raincoat with high-quality materials and excellent design.",
+      "rating": 4.9,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/raincoat.jpg",
+      "secondaryImage": "../assets/images/raincoat2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Silicone",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.05 kg",
+        "features": [
+          "Stylish",
+          "Lightweight",
+          "Waterproof",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "name": "Leggings",
+      "category": "Clothing",
+      "price": 158.0,
+      "originalPrice": 189.6,
+      "image": "../assets/images/leggings.jpg",
+      "description": "Leggings with high-quality materials and excellent design.",
+      "rating": 3.5,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/leggings.jpg",
+      "secondaryImage": "../assets/images/leggings2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.1 kg",
+        "features": [
+          "Comfortable",
+          "Lightweight",
+          "Waterproof",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "name": "Cargo Pants",
+      "category": "Clothing",
+      "price": 159.5,
+      "originalPrice": 191.4,
+      "image": "../assets/images/cargopants.jpg",
+      "description": "Cargo Pants with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/cargopants.jpg",
+      "secondaryImage": "../assets/images/cargopants2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Steel",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.15 kg",
+        "features": [
+          "Durable",
+          "Eco-friendly",
+          "Waterproof",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "name": "Puffer Vest",
+      "category": "Clothing",
+      "price": 161.0,
+      "originalPrice": 193.2,
+      "image": "../assets/images/puffervest.jpg",
+      "description": "Puffer Vest with high-quality materials and excellent design.",
+      "rating": 4.8,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/puffervest.jpg",
+      "secondaryImage": "../assets/images/puffervest2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.2 kg",
+        "features": [
+          "Eco-friendly",
+          "Lightweight",
+          "Waterproof",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "name": "Blazer",
+      "category": "Clothing",
+      "price": 162.5,
+      "originalPrice": 195.0,
+      "image": "../assets/images/blazer.jpg",
+      "description": "Blazer with high-quality materials and excellent design.",
+      "rating": 4.5,
+      "isNew": false,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/blazer.jpg",
+      "secondaryImage": "../assets/images/blazer2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Leather",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.25 kg",
+        "features": [
+          "Eco-friendly",
+          "Lightweight",
+          "Comfortable",
+          "Waterproof"
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "name": "Flannel Shirt",
+      "category": "Clothing",
+      "price": 164.0,
+      "originalPrice": 196.8,
+      "image": "../assets/images/flannelshirt.jpg",
+      "description": "Flannel Shirt with high-quality materials and excellent design.",
+      "rating": 4.6,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/flannelshirt.jpg",
+      "secondaryImage": "../assets/images/flannelshirt2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.3 kg",
+        "features": [
+          "Comfortable",
+          "Eco-friendly",
+          "Stylish",
+          "Durable"
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "name": "Overcoat",
+      "category": "Clothing",
+      "price": 165.5,
+      "originalPrice": 198.6,
+      "image": "../assets/images/overcoat.jpg",
+      "description": "Overcoat with high-quality materials and excellent design.",
+      "rating": 3.5,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": false,
+      "isTrending": false,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/overcoat.jpg",
+      "secondaryImage": "../assets/images/overcoat2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Cotton",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.35 kg",
+        "features": [
+          "Durable",
+          "Lightweight",
+          "Eco-friendly",
+          "Comfortable"
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "name": "Sneakers",
+      "category": "Clothing",
+      "price": 167.0,
+      "originalPrice": 200.4,
+      "image": "../assets/images/sneakers.jpg",
+      "description": "Sneakers with high-quality materials and excellent design.",
+      "rating": 3.7,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/sneakers.jpg",
+      "secondaryImage": "../assets/images/sneakers2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Extra Large",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.4 kg",
+        "features": [
+          "Waterproof",
+          "Durable",
+          "Eco-friendly",
+          "Lightweight"
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "name": "Slip-On Shoes",
+      "category": "Clothing",
+      "price": 168.5,
+      "originalPrice": 202.2,
+      "image": "../assets/images/slip-onshoes.jpg",
+      "description": "Slip-On Shoes with high-quality materials and excellent design.",
+      "rating": 4.2,
+      "isNew": false,
+      "isOnSale": false,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/slip-onshoes.jpg",
+      "secondaryImage": "../assets/images/slip-onshoes2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Polyester",
+        "size": "Small",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.45 kg",
+        "features": [
+          "Stylish",
+          "Durable",
+          "Comfortable",
+          "Eco-friendly"
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "name": "Track Pants",
+      "category": "Clothing",
+      "price": 170.0,
+      "originalPrice": 204.0,
+      "image": "../assets/images/trackpants.jpg",
+      "description": "Track Pants with high-quality materials and excellent design.",
+      "rating": 3.5,
+      "isNew": true,
+      "isOnSale": true,
+      "isFeatured": true,
+      "isTrending": true,
+      "slug": "clothing",
+      "primaryImage": "../assets/images/trackpants.jpg",
+      "secondaryImage": "../assets/images/trackpants2.jpg",
+      "categoryImage": "../assets/images/Clothing.jpg",
+      "details": {
+        "material": "Plastic",
+        "size": "Medium",
+        "colorOptions": [
+          "Red",
+          "Blue",
+          "Black",
+          "White"
+        ],
+        "weight": "5.5 kg",
+        "features": [
+          "Eco-friendly",
+          "Comfortable",
+          "Lightweight",
+          "Durable"
+        ]
+      }
+    }
+  ]
+}
