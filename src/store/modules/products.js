@@ -9,7 +9,7 @@ export default {
     itemsPerPage: 12,
     categories: [],
 
- filteredProducts: []  // Store filtered products
+    filteredProducts: []  // Store filtered products
   },
   mutations: {
     SET_PRODUCTS(state, products) {

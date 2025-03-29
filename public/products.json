@@ -6,7 +6,7 @@
       "category": "Electronics",
       "price": 699,
       "originalPrice": 799,
-      "image": "../assets/images/smartphone.jpg",
+      "image": "@/assets/images/smartphone.jpg", 
       "description": "Latest smartphone with advanced features",
       "rating": 4.5,
       "isNew": true,
@@ -14,9 +14,9 @@
       "isFeatured": true,
       "isTrending": true,
       "slug": "electronics",
-      "primaryImage": "../assets/images/smartphone.jpg",
-      "secondaryImage": "../assets/images/smartphone2.jpg",
-      "categoryImage": "../assets/images/Electronics.jpg"
+      "primaryImage": "@/assets/images/smartphone.jpg",
+      "secondaryImage": "@/assets/images/smartphone2.jpg",
+      "categoryImage": "@/assets/images/Electronics.jpg"
       
     },
     {
@@ -25,7 +25,7 @@
       "category": "Sports",
       "price": 120,
       "originalPrice": 150,
-      "image": "../assets/images/Running Shoeses.jpg",
+      "image": "/assets/images/Running Shoeses.jpg",
       "description": "Comfortable running shoes with great support",
       "rating": 4,
       "isNew": true,
@@ -149,5 +149,4 @@
       "categoryImage": "../assets/images/Clothing.jpg"
     }
   ]
-
 }

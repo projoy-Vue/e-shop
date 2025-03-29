@@ -8,45 +8,25 @@
     </div>
 
     <div class="product-grid">
-      <div 
-        v-for="product in featuredProducts" 
-        :key="product.id" 
-        class="product-card"
-      >
+      <div v-for="product in featuredProducts" :key="product.id" class="product-card">
         <div class="image-container">
-          <img
-           :src="getImage(product.primaryImage)"
-            :alt="product.name"
-            class="primary-image"
-          >
-          <img 
-            :src="getImage(product.secondaryImage)" 
-            :alt="product.name"
-            class="secondary-image"
-          >
+          <img :src='getImage(product.primaryImage)' :alt="product.name" class="primary-image">
+          <img :src="getImage(product.secondaryImage)" :alt="product.name" class="secondary-image">
         </div>
-        
+
         <div class="product-info">
           <h3 class="product-title">{{ product.name }}</h3>
           <div class="price-container">
-            <span 
-              class="price" 
-              :class="{ 'sale-price': product.isOnSale }"
-            >
+            <span class="price" :class="{ 'sale-price': product.isOnSale }">
               ${{ product.price }}
             </span>
             <span v-if="product.originalPrice" class="original-price">
               ${{ product.originalPrice }}
             </span>
           </div>
-          
+
           <div class="rating" :title="`${product.rating}/5 (${product.reviews} reviews)`">
-            <span 
-              v-for="star in 5" 
-              :key="star"
-              class="star"
-              :class="{ filled: star <= Math.round(product.rating) }"
-            >
+            <span v-for="star in 5" :key="star" class="star" :class="{ filled: star <= Math.round(product.rating) }">
               ★
             </span>
           </div>
@@ -64,23 +44,25 @@
 
 <script>
 
-export default {
-  computed: {
-    featuredProducts() {
-      return this.$store.getters['products/featuredProducts'].slice(0, 6);
+  export default {
+    computed: {
+      featuredProducts() {
+        return this.$store.getters['products/featuredProducts'].slice(0, 6);
+      },
+
     },
-   
-  },
-  methods: {
-    addToCart(product) {
-      this.$store.dispatch('cart/addToCart', product)
-    },
+    methods: {
+      addToCart(product) {
+        this.$store.dispatch('cart/addToCart', product)
+      },
       // Dynamically load images from the assets folder
       getImage(image) {
+
         return new URL(image, import.meta.url).href;
       }
+
+    }
   }
-}
 </script>
 
 <style scoped>
